@@ -13,10 +13,10 @@ export default class Card extends Component{
     return(
       <React.Fragment>
         <div style={ style }>
-          <span>Photo</span>
-          <span>Naam</span>
-          <span>E-mail</span>
-          <span>Phone</span>
+          <img class="rounded-circle" alt="Photo" src=""></img>
+          <h4>Naam</h4>
+          <div>E-mail</div>
+          <div>Phone</div>
         </div>
       </React.Fragment>
     );
