@@ -1,15 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
+import Header from './Component/Header'
 import './App.css';
 
 function App() {
   return (
     <div className="Smoelenboek">
-      <header className="SB-header">
-        <span>Smoelenboek</span>
-        <span>Menu</span>
-        <span>Toevoegen</span>
-      </header>
+      <Header></Header>
       <body>
         Content
       </body>
